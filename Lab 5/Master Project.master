@@ -9,8 +9,13 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    
     <h1>Edit Your Profile</h1>
+    <asp:SiteMapDataSource ID="SecuredSiteMap" StartingNodeUrl="~/Default.aspx" ShowStartingNode="false" runat="server"/>
+    <asp:SiteMapPath PathSeparator="Something of my choosing" runat="server"></asp:SiteMapPath>
+    
     <form id="form1" runat="server">
+        <asp:Menu DataSourceID="SecuredSiteMap" BackColor="#66ffff" Orientation="Horizontal" EnableTheming="true" runat ="server"></asp:Menu>
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         

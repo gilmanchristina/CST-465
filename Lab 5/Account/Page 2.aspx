@@ -8,6 +8,8 @@
     
 </head>
 <body>
+    <br />
+    <br />
     <form id="form1" runat="server">
     <div>
     <h1>View Your Profile</h1>

@@ -28,6 +28,6 @@ public partial class _Default : System.Web.UI.Page
         Session["Number"] = data.Number;
         Session["Des"] = data.Des;
         var response = base.Context.Response;
-        response.Redirect("Page 2.aspx",false);
+        response.Redirect("~/Account/Page 2.aspx",false);
     }
 }

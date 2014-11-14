@@ -13,6 +13,7 @@
     <div>
         <asp:Login MembershipProvider="SqlMembership" CreateUserText="Register" CreateUserUrl="~/Register.aspx" runat="server"></asp:Login>
     </div>
+
     </form>
 </body>
 </html>

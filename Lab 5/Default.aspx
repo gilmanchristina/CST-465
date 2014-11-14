@@ -4,6 +4,8 @@
     <title>Edit Your Profile</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <br />
+    <br />
     <asp:Label runat="server" Text="Name"></asp:Label>
     &nbsp;
     <asp:TextBox runat="server" ID="uxName" Width="277px" ></asp:TextBox>   
