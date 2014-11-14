@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode   url="~/Default.aspx" title="Home"  description="The default page for the preoject">
+        <siteMapNode url="~/About.aspx" title="About Page"  description="" />
+        <siteMapNode url="~/Forum.aspx" title="Forum Page"  description="" />
+        <siteMapNode url="~/Login.aspx" title="Login Page"  description="" />
+        <siteMapNode url="~/Register.aspx" title="Register Page"  description="" />
+        <siteMapNode url="~/Test.aspx" title="Test Page"  description="" />
+        <siteMapNode url="~/Account/Account.aspx" title="Account Page"  description="">
+          <siteMapNode url="~/Account/Logout.aspx" title="Logout Page"  description="" />
+          <siteMapNode url="~/Account/Page 2.aspx" title="Page 2 Page"  description="" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
